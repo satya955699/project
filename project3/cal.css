@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(45deg,red,black);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    min-width: 40vh;
+    height: 50vh;
+    overflow: hidden;
+    border: 3px solid blue;
+    border-radius: 10px;
+    padding: 10px;
+  
+   
+}
+button{
+    padding: 20px;
+}
+.numbers{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 4px;
+}
+input{
+    height: 50px;
+    width: 100%;
+}
+.clear{
+    grid-column: 2/4;
+}
+
+

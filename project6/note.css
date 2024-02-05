@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(45deg,#23b9c9, rgb(97, 132, 135));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    background-attachment: fixed;
+    overflow-y: scroll;
+      
+}
+
+button{
+    
+    float: right;
+    margin-right: 60px;
+    padding: 10px 30px;
+    background-color: bisque;
+}
+main{
+    max-width: 70%;
+    
+    margin: 90px auto;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.icon{
+    margin: 50px 100px;
+     /* position: fixed; */
+     margin-right: 296px;
+}
+.notes{
+    max-width: 463px;}
+    
+.icon2{
+    background-color: #cccc;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px ;
+   /* position: fixed; */
+   width: 470px;
+   
+}
+.container{
+    max-width: 470px;
+    overflow: hidden;
+    margin: 50px
+  ;
+    }
+textarea{
+    font-size: xx-large;
+}
+i{
+    cursor: pointer;
+}

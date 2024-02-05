@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    margin-top: 10px;
+    background-color: black;
+    display: flex;
+    color: white;
+    list-style: none;
+    height: 100px;
+    align-items: center;
+}
+nav h1,li{
+    margin: 0 10px;
+}
+nav img{
+    height: 60px;
+    margin: 20px;
+    
+}
+
+.song{
+
+    font: 1em sans-serif;
+        background-image: url("bg.jpg");
+        min-height: 63vh;
+        width: 80%;
+        margin: 10px auto;
+        color: white;
+        padding: 60px;
+}
+main .buttom{
+    height: 90px;
+
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    
+    position: relative;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.buttom input{
+    width: 80%;
+}
+.buttom  i{
+padding: 0 8px;
+
+}
+.songItem{
+    width: 25%;
+    height: 50px;
+    display: flex;
+    background-color: white;
+   
+    color: black;
+    justify-content: space-between;
+    padding: 1px 16px;
+    border: 2px solid black;
+    border-radius: 40px;
+    margin: 18px 0px;
+}
+.songItem img{
+    border-radius: 50%;
+}
+.songItem span{
+    display: flex;
+    align-items: center;
+}
+.gif{
+    height: 90px;
+    position: absolute;
+    left: 0;
+    margin-left: 10px;
+}
+.gif img{
+    
+    height: 40px;
+    width: 10vw;
+}
+@media (max-width:800px) {
+    nav{
+        margin: 0;
+        width: 120vw;
+        
+    }
+    nav img,h1,li{
+        position: relative;
+        left: 50px;
+    }
+    .song{
+        width: 100%;
+        background-position: center;
+
+    }
+    .songItem{
+        width: 55%;
+        font-size: 10px;
+    }
+    .buttom{
+        width: 120vw;
+    }
+}
+    
+#gf{
+    opacity: 0;
+    transition: 1s ease-in;
+
+}
+
